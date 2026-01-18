@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{622C6682-FA1D-474F-92A4-8F26E2AB2AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AedMap.Api", "src\AedMap.Api\AedMap.Api.csproj", "{B47C0BBF-EBBA-48B4-B153-9AEE53817D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AedMap.Domain", "src\AedMap.Domain\AedMap.Domain.csproj", "{C7DDF29F-3D57-402A-AE01-D1AB772210D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AedMap.Application", "src\AedMap.Application\AedMap.Application.csproj", "{FCC86288-05BE-41FB-9366-6A311386132C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AedMap.Infrastructure", "src\AedMap.Infrastructure\AedMap.Infrastructure.csproj", "{A4A462A9-FB54-4821-8FF9-635BAEA36303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{60C783A5-FA51-415B-A4C6-5A546C43336A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AedMap.Tests", "tests\AedMap.Tests\AedMap.Tests.csproj", "{1700AB2E-8978-4C8E-8BE0-904D3B3A677B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B47C0BBF-EBBA-48B4-B153-9AEE53817D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47C0BBF-EBBA-48B4-B153-9AEE53817D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47C0BBF-EBBA-48B4-B153-9AEE53817D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47C0BBF-EBBA-48B4-B153-9AEE53817D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DDF29F-3D57-402A-AE01-D1AB772210D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DDF29F-3D57-402A-AE01-D1AB772210D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DDF29F-3D57-402A-AE01-D1AB772210D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DDF29F-3D57-402A-AE01-D1AB772210D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC86288-05BE-41FB-9366-6A311386132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC86288-05BE-41FB-9366-6A311386132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC86288-05BE-41FB-9366-6A311386132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC86288-05BE-41FB-9366-6A311386132C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A462A9-FB54-4821-8FF9-635BAEA36303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A462A9-FB54-4821-8FF9-635BAEA36303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A462A9-FB54-4821-8FF9-635BAEA36303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A462A9-FB54-4821-8FF9-635BAEA36303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1700AB2E-8978-4C8E-8BE0-904D3B3A677B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1700AB2E-8978-4C8E-8BE0-904D3B3A677B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1700AB2E-8978-4C8E-8BE0-904D3B3A677B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1700AB2E-8978-4C8E-8BE0-904D3B3A677B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B47C0BBF-EBBA-48B4-B153-9AEE53817D95} = {622C6682-FA1D-474F-92A4-8F26E2AB2AB3}
+		{C7DDF29F-3D57-402A-AE01-D1AB772210D9} = {622C6682-FA1D-474F-92A4-8F26E2AB2AB3}
+		{FCC86288-05BE-41FB-9366-6A311386132C} = {622C6682-FA1D-474F-92A4-8F26E2AB2AB3}
+		{A4A462A9-FB54-4821-8FF9-635BAEA36303} = {622C6682-FA1D-474F-92A4-8F26E2AB2AB3}
+		{1700AB2E-8978-4C8E-8BE0-904D3B3A677B} = {60C783A5-FA51-415B-A4C6-5A546C43336A}
+	EndGlobalSection
+EndGlobal
